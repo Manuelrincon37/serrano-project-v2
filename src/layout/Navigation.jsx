@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom'
 export const Navigation = () => {
   return (
-    <>
+
         <nav className="nav">
             <ul>
                 <li><NavLink to="/index">Inicio</NavLink></li>
@@ -10,6 +10,5 @@ export const Navigation = () => {
                 <li><NavLink to="/about">Acerca de</NavLink></li>
             </ul>
         </nav>
-    </>
   )
 }

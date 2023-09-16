@@ -8,10 +8,10 @@ import { About } from '../components/pages/About'
 export const MainRouter = () => {
   return (
     <BrowserRouter>
-        {/* Headers below */}
-        <Header/>
         {/* Nav below */}
         <Navigation/>
+        {/* Headers below */}
+        <Header/>
         {/* Routes below */}
         <Routes>
             <Route path='/' element={<Index/>} />
