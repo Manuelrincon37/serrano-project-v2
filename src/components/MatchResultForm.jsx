@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import teams from '../data/teams.json'
-import '../App.css'
 
 export const MatchResultForm = () => {
   const [formData, setFormData] = useState({
@@ -17,6 +16,7 @@ export const MatchResultForm = () => {
       ...formData,
       [name]: value
     })
+    console.log(formData)
   }
 
   const updateTeamData = () => {
@@ -61,50 +61,27 @@ export const MatchResultForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-
-    // Validar el formulario aquí si es necesario
-
-    const updatedTeams = updateTeamData()
-
-    // Guardar en localStorage
-    const teamsData = JSON.stringify(updatedTeams)
-    localStorage.setItem('teamsData', teamsData)
-
-    // Limpiar el formulario
-    setFormData({
-      div: '',
-      team1: '',
-      team2: '',
-      team1Goals: 0,
-      team2Goals: 0
-    })
   }
 
   return (
     <div>
       <form onSubmit={handleSubmit} className="formResult">
-        <div>
-          <label htmlFor="team1">Equipo 1</label>
-          <input
-            type="text"
-            id="team1"
-            name="team1"
-            placeholder="Nombre del equipo 1"
-            value={formData.team1}
-            onChange={handleChange}
-          />
-        </div>
 
-        <div>
-          <label htmlFor="team2">Equipo 2</label>
-          <input
-            type="text"
-            id="team2"
-            name="team2"
-            placeholder="Nombre del equipo 2"
-            value={formData.team2}
-            onChange={handleChange}
-          />
+        <div className='local'>
+            <label htmlFor="local">Equipo Local</label>
+            <select id="local" name="local" onChange={handleChange}>
+             {teams.map((team) => (
+                <option key={team.id} value={FormData.team1}>{team.nombre}</option>
+             ))}
+            </select>
+        </div>
+        <div className='visit'>
+            <label htmlFor="visitante">Equipo Visitante</label>
+            <select id="visitante" name="visitante" onChange={handleChange}>
+             {teams.map((team) => (
+                <option key={team.id} value={FormData.team2}>{team.nombre}</option>
+             ))}
+            </select>
         </div>
 
         <div>
