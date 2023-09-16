@@ -11,6 +11,7 @@ export const MainRouter = () => {
         <Navigation/>
         {/* Routes below */}
         <Routes>
+            <Route path='/' element={<Index/>} />
             <Route path="/index" element={<Index/>} />
             <Route path='/teams' element={<h1>Teams</h1>} />
         </Routes>
