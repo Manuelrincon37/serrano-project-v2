@@ -1,9 +1,9 @@
 [
     {
         "_id": 1,
-        "nombre": "Equipo 1ra División 1",
-        "coach": "Entrenador 1ra División 1",
-        "puntos": 10,
+        "nombre": "AC Milan",
+        "coach": "Benjamin",
+        "puntos": 0,
         "partidos_jugados": 0,
         "partidos_ganados": 0,
         "partidos_empatados": 0,
@@ -12,13 +12,14 @@
         "goles_en_contra": 0,
         "diferencia_de_goles": 0,
         "division": "1era",
-        "posicion": 1
+        "posicion": 1,
+        "escudo": "public/escudos/milan.png"
     },
     {
         "_id": 2,
-        "nombre": "Equipo 1ra División 2",
-        "coach": "Entrenador 1ra División 2",
-        "puntos": 20,
+        "nombre": "Real Madrid FC",
+        "coach": "Roberto Fo-Sho",
+        "puntos": 0,
         "partidos_jugados": 0,
         "partidos_ganados": 0,
         "partidos_empatados": 0,
@@ -27,13 +28,14 @@
         "goles_en_contra": 0,
         "diferencia_de_goles": 0,
         "division": "1era",
-        "posicion": 1
+        "posicion": 1,
+        "escudo": "public/escudos/realmadrid.png"
     },
     {
         "_id": 3,
-        "nombre": "Equipo 1ra División 3",
-        "coach": "Entrenador 1ra División 3",
-        "puntos": 3,
+        "nombre": "Lyon",
+        "coach": "Cachupin",
+        "puntos": 0,
         "partidos_jugados": 0,
         "partidos_ganados": 0,
         "partidos_empatados": 0,
@@ -42,13 +44,14 @@
         "goles_en_contra": 0,
         "diferencia_de_goles": 0,
         "division": "1era",
-        "posicion": 1
+        "posicion": 1,
+        "escudo": "public/escudos/lyon.png"
     },
     {
         "_id": 4,
-        "nombre": "Equipo 1ra División 4",
-        "coach": "Entrenador 1ra División 4",
-        "puntos": 10,
+        "nombre": "FC Porto ",
+        "coach": "Omar",
+        "puntos": 0,
         "partidos_jugados": 0,
         "partidos_ganados": 0,
         "partidos_empatados": 0,
@@ -56,12 +59,13 @@
         "goles_a_favor": 0,
         "goles_en_contra": 0,
         "diferencia_de_goles": 0,
-        "division": "1era"
+        "division": "1era",
+        "escudo": "public/escudos/porto.png"
     },
     {
         "_id": 5,
-        "nombre": "Equipo 1ra División 5",
-        "coach": "Entrenador 1ra División 5",
+        "nombre": "Venezia",
+        "coach": "Oliver Atom",
         "puntos": 0,
         "partidos_jugados": 0,
         "partidos_ganados": 0,
@@ -70,12 +74,13 @@
         "goles_a_favor": 0,
         "goles_en_contra": 0,
         "diferencia_de_goles": 0,
-        "division": "1era"
+        "division": "1era",
+        "escudo": "public/escudos/venezia.png"
     },
     {
         "_id": 6,
-        "nombre": "Equipo 1ra División 6",
-        "coach": "Entrenador 1ra División 6",
+        "nombre": "Napoli",
+        "coach": "Miguelito boscan",
         "puntos": 0,
         "partidos_jugados": 0,
         "partidos_ganados": 0,
@@ -84,12 +89,13 @@
         "goles_a_favor": 0,
         "goles_en_contra": 0,
         "diferencia_de_goles": 0,
-        "division": "1era"
+        "division": "1era",
+        "escudo": "public/escudos/napoli.png"
     },
     {
         "_id": 7,
-        "nombre": "Equipo 1ra División 7",
-        "coach": "Entrenador 1ra División 7",
+        "nombre": "Borussia Dortmund",
+        "coach": "Manuel Rincon",
         "puntos": 0,
         "partidos_jugados": 0,
         "partidos_ganados": 0,
@@ -98,12 +104,13 @@
         "goles_a_favor": 0,
         "goles_en_contra": 0,
         "diferencia_de_goles": 0,
-        "division": "1era"
+        "division": "1era",
+        "escudo": "public/escudos/borussiadortmund.png"
     },
     {
         "_id": 8,
-        "nombre": "Equipo 1ra División 8",
-        "coach": "Entrenador 1ra División 8",
+        "nombre": "Atletico de Madrid",
+        "coach": "Miguel 'mardito' Albornoz",
         "puntos": 0,
         "partidos_jugados": 0,
         "partidos_ganados": 0,
@@ -112,12 +119,13 @@
         "goles_a_favor": 0,
         "goles_en_contra": 0,
         "diferencia_de_goles": 0,
-        "division": "1era"
+        "division": "1era",
+        "escudo": "public/escudos/atlmadrid.png"
     },
     {
         "_id": 9,
-        "nombre": "Equipo 1ra División 9",
-        "coach": "Entrenador 1ra División 9",
+        "nombre": "Liverpool",
+        "coach": "Daniel 'PRESI' Marval",
         "puntos": 0,
         "partidos_jugados": 0,
         "partidos_ganados": 0,
@@ -126,12 +134,13 @@
         "goles_a_favor": 0,
         "goles_en_contra": 0,
         "diferencia_de_goles": 0,
-        "division": "1era"
+        "division": "1era",
+        "escudo": "public/escudos/liverpool.png"
     },
     {
         "_id": 10,
-        "nombre": "Equipo 1ra División 10",
-        "coach": "Entrenador 1ra División 10",
+        "nombre": "Bayern Munich",
+        "coach": "Avilio 'El pollo' Chavez",
         "puntos": 0,
         "partidos_jugados": 0,
         "partidos_ganados": 0,
@@ -140,12 +149,13 @@
         "goles_a_favor": 0,
         "goles_en_contra": 0,
         "diferencia_de_goles": 0,
-        "division": "1era"
+        "division": "1era",
+        "escudo": "public/escudos/bayernmunchen.png"
     },
     {
         "_id": 11,
-        "nombre": "Equipo 2da División 1",
-        "coach": "Entrenador 2da División 1",
+        "nombre": "Manchester City",
+        "coach": "David Albornoz",
         "puntos": 0,
         "partidos_jugados": 0,
         "partidos_ganados": 0,
@@ -155,12 +165,13 @@
         "goles_en_contra": 0,
         "diferencia_de_goles": 0,
         "division": "2da",
-        "posicion": 1
+        "posicion": 1,
+        "escudo": "public/escudos/manchestercity.png"
     },
     {
         "_id": 12,
-        "nombre": "Equipo 2da División 2",
-        "coach": "Entrenador 2da División 2",
+        "nombre": "Juventus",
+        "coach": "Daniel el gracioso",
         "puntos": 0,
         "partidos_jugados": 0,
         "partidos_ganados": 0,
@@ -169,12 +180,13 @@
         "goles_a_favor": 0,
         "goles_en_contra": 0,
         "diferencia_de_goles": 0,
-        "division": "2da"
+        "division": "2da",
+        "escudo": "public/escudos/juventus.png"
     },
     {
         "_id": 13,
-        "nombre": "Equipo 2da División 3",
-        "coach": "Entrenador 2da División 3",
+        "nombre": "Arsenal",
+        "coach": "Willy Paquete",
         "puntos": 0,
         "partidos_jugados": 0,
         "partidos_ganados": 0,
@@ -183,12 +195,13 @@
         "goles_a_favor": 0,
         "goles_en_contra": 0,
         "diferencia_de_goles": 0,
-        "division": "2da"
+        "division": "2da",
+        "escudo": "public/escudos/arsenal.png"
     },
     {
         "_id": 14,
-        "nombre": "Equipo 2da División 4",
-        "coach": "Entrenador 2da División 4",
+        "nombre": "River plate",
+        "coach": "Memo albornoz",
         "puntos": 0,
         "partidos_jugados": 0,
         "partidos_ganados": 0,
@@ -197,12 +210,13 @@
         "goles_a_favor": 0,
         "goles_en_contra": 0,
         "diferencia_de_goles": 0,
-        "division": "2da"
+        "division": "2da",
+        "escudo": "public/escudos/river.png"
     },
     {
         "_id": 15,
-        "nombre": "Equipo 2da División 5",
-        "coach": "Entrenador 2da División 5",
+        "nombre": "PSG",
+        "coach": "Michael 'Habibi' Akkawi",
         "puntos": 0,
         "partidos_jugados": 0,
         "partidos_ganados": 0,
@@ -211,11 +225,12 @@
         "goles_a_favor": 0,
         "goles_en_contra": 0,
         "diferencia_de_goles": 0,
-        "division": "2da"
+        "division": "2da",
+        "escudo": "public/escudos/psg.png"
     },
     {
         "_id": 16,
-        "nombre": "Equipo 2da División 6",
+        "nombre": "Tottenham Spurs",
         "coach": "Entrenador 2da División 6",
         "puntos": 0,
         "partidos_jugados": 0,
@@ -225,12 +240,13 @@
         "goles_a_favor": 0,
         "goles_en_contra": 0,
         "diferencia_de_goles": 0,
-        "division": "2da"
+        "division": "2da",
+        "escudo": "public/escudos/tottenham.png"
     },
     {
         "_id": 17,
-        "nombre": "Equipo 2da División 7",
-        "coach": "Entrenador 2da División 7",
+        "nombre": "Inter Miami",
+        "coach": "Arturito 'Cuidado'",
         "puntos": 0,
         "partidos_jugados": 0,
         "partidos_ganados": 0,
@@ -239,12 +255,13 @@
         "goles_a_favor": 0,
         "goles_en_contra": 0,
         "diferencia_de_goles": 0,
-        "division": "2da"
+        "division": "2da",
+        "escudo": "public/escudos/intermiami.png"
     },
     {
         "_id": 18,
-        "nombre": "Equipo 2da División 8",
-        "coach": "Entrenador 2da División 8",
+        "nombre": "FC Barcelona",
+        "coach": "Jesus Manuel",
         "puntos": 0,
         "partidos_jugados": 0,
         "partidos_ganados": 0,
@@ -253,12 +270,13 @@
         "goles_a_favor": 0,
         "goles_en_contra": 0,
         "diferencia_de_goles": 0,
-        "division": "2da"
+        "division": "2da",
+        "escudo": "public/escudos/barcelona.png"
     },
     {
         "_id": 19,
-        "nombre": "Equipo 2da División 9",
-        "coach": "Entrenador 2da División 9",
+        "nombre": "Galatasaray",
+        "coach": "Samuel 'El Yayo' Marval",
         "puntos": 0,
         "partidos_jugados": 0,
         "partidos_ganados": 0,
@@ -267,12 +285,13 @@
         "goles_a_favor": 0,
         "goles_en_contra": 0,
         "diferencia_de_goles": 0,
-        "division": "2da"
+        "division": "2da",
+        "escudo": "public/escudos/galatasaray.png"
     },
     {
         "_id": 20,
-        "nombre": "Equipo 2da División 10",
-        "coach": "Entrenador 2da División 10",
+        "nombre": "RB Leipzig",
+        "coach": "Daniel 'Alan' Brito",
         "puntos": 0,
         "partidos_jugados": 0,
         "partidos_ganados": 0,
@@ -281,6 +300,7 @@
         "goles_a_favor": 0,
         "goles_en_contra": 0,
         "diferencia_de_goles": 0,
-        "division": "2da"
+        "division": "2da",
+        "escudo": "public/escudos/rbleipzig.png"
     }
 ]

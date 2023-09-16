@@ -1,3 +1,5 @@
+import { ScoreBoard } from '../../components/ScoreBoard'
+import { firstDivTeams } from '../../helpers/detData'
 export const Index = () => {
   return (
 
@@ -9,6 +11,11 @@ export const Index = () => {
                     <p>ROBERTO NO HAGAS TRAMPA</p>
 
                 </div>
+
+                <div className='scoreboard'>
+                  <ScoreBoard division={firstDivTeams}/>
+                </div>
+
             </div>
 
   )

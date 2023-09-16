@@ -70,10 +70,8 @@ body {
   flex-wrap: wrap;
   width: 85%;
   margin: 2rem auto;
-  justify-content: space-evenly;
-  align-content: space-between;
+  justify-content: space-between;
   gap: 1rem 1rem;
-  flex: 1;
 }
 
 .team-card {
@@ -81,32 +79,56 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-basis: 30%;
-  width: 20%;
   margin: 1rem 0;
   padding: 1rem 0;
   background-color: #1b1b1f;
   border-radius: 10px;
   box-shadow: 0px 0px 15px lightblue;
   transition: all 250ms;
+  flex: 1 1 20%;
 }
 
 .team-card img {
-  width: 60%;
-  object-fit: cover;
-  background-color: lightblue;
-  box-shadow: 0px 0px 10px lightblue;
-  border-radius: 10px;
+  width: 40%;
   margin: 0.5rem 0;
   padding: 5px;
+  background-color: rgba(173, 216, 230, 0.2);
+  border-radius: 10px;
 }
 
-.team-card h1 {
-  font-size: 1.5rem;
+.team-card h2 {
+  font-size: 1.2rem;
   text-align: center;
   color: lightblue;
+  margin: 0.5rem 0;
+}
+
+.team-card p {
+  font-size: 0.9rem;
+  text-align: center;
+  color: lightblue;
+  margin: 0.5rem 0;
 }
 
 .team-card:hover {
   transform: scale(1.05);
+}
+
+@media(max-width: 480px) {
+  .team-card {
+    flex: 1 1 40%;
+  }
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 1rem auto;
+  padding: 1rem 0;
+  background-color: #1b1b1f;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px lightblue;
+  transition: all 250ms;
+  flex: 1 1 20%;
 }

@@ -1,9 +1,9 @@
-import teams from '..data/teams.json'
+import teams from '../data/teams.json'
 
 // filter teams by division and sort
-const firstDivTeams = teams.filter(team => team.division === '1era')
+export const firstDivTeams = teams.filter(team => team.division === '1era')
   .sort((a, b) => b.puntos - a.puntos)
-const scdDivTeams = teams.filter(team => team.division === '2da')
+export const scdDivTeams = teams.filter(team => team.division === '2da')
   .sort((a, b) => b.puntos - a.puntos)
 
 // determine the position of each team by points
@@ -31,8 +31,3 @@ scdDivTeams.forEach((team, index) => {
     }
   }
 })
-
-module.exports = {
-  scdDivTeams,
-  firstDivTeams
-}
