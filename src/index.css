@@ -10,22 +10,21 @@
   justify-content: center;
   align-items: center;
   padding: 0.5rem 0.5rem;
-  font-size: 1.2rem;
 }
 
 .header img {
-  width: 25%;
+  width: 20%;
   object-fit: cover;
   background-color: lightblue;
   box-shadow: 0px 0px 30px lightblue;
   border-radius: 10px;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   padding: 5px;
 
 }
 
 .header h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
   color: lightblue;
 }
@@ -82,4 +81,48 @@ nav {
   transition: all 250ms;
   padding: 0.5rem 0.5rem;
   border-radius: 10px;
+}
+
+.teams-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: space-between;
+  margin: 2rem auto;
+  margin-top: 5rem;
+}
+
+.team-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 30%;
+  width: 20%;
+  margin: 1rem 0;
+  padding: 1rem 0;
+  background-color: #1b1b1f;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px lightblue;
+  transition: all 250ms;
+}
+
+.team-card img {
+  width: 60%;
+  object-fit: cover;
+  background-color: lightblue;
+  box-shadow: 0px 0px 10px lightblue;
+  border-radius: 10px;
+  margin: 0.5rem 0;
+  padding: 5px;
+}
+
+.team-card h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: lightblue;
+}
+
+.team-card:hover {
+  transform: scale(1.05);
 }
